@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono&display=swap');
+
+.nameText{
+    position: absolute;
+    width: 100%;
+    height: 80%;
+    top: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    color: white;
+    font-family: 'Space Mono', monospace;
+    font-size: 1.7cm;
+    z-index: 4;
+}
+
+@media screen and (max-width: 960px) {
+    .nameText {
+        position: absolute;
+        width: 100%;
+        height: 80%;
+        top: 80px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+        color: white;
+        font-family: 'Space Mono', monospace;
+        font-size: 1.2cm;
+        z-index: 4;
+    }
+}

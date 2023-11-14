@@ -1,0 +1,60 @@
+.currProject {
+    display: flex;
+    position: absolute;
+    top: 650px;
+    left: 50px;
+    right: 50px;
+    padding-left: 15px;
+    background: linear-gradient(#fe05fe 20%, #000000 100%);
+    border-radius: 15px;
+}
+
+.currProjText {
+    max-width: 50%;
+}
+
+.projImage {
+    margin: 10px 10px 10px 25px;
+    min-height: 100px;
+    max-height: 700px;
+    object-fit: contain;
+
+}
+
+.currProjImage {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@media screen and (max-width: 960px) {
+    .currProject {
+        display: flex;
+        flex-direction:column-reverse;
+        padding-bottom: 20px;
+        padding-left: 0px;
+        top: 900px;
+        left: 0px;
+        right: 0px;
+        border-radius: 0px;
+    }
+
+    .currProjText {
+        max-width: 100%;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .projImage {
+        width: 95%;
+        height: 100%;
+        margin: 0px 10px 10px 10px;
+        padding: 10px;
+    }
+
+    .currProjImage {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}

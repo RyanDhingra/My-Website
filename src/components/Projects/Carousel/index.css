@@ -1,0 +1,185 @@
+img {
+    width: 600px;
+    height: 400px;
+}
+
+.swiper {
+    width: 100%;
+}
+
+.swiper-slide {
+    background-position: center;
+    background-size: cover;
+    width: 600px;
+    height: 400px;
+}
+
+.swiper-slide img {
+    display: block;
+    width: 100%;
+    border-radius: 15px;
+}
+
+.image {
+    opacity: 1;
+    transition: opacity 0.5s;
+    object-fit: cover;
+}
+
+.swiper-pagination-bullet.swiper-pagination-bullet-active {
+    background-color: white;
+}
+
+.swiper-slide.swiper-slide-visible.swiper-slide-active:hover .image{
+    opacity: 0.5;
+    transition: opacity 0.5s;
+    border-radius: 15px;
+}
+
+.swiper-slide.swiper-slide-visible.swiper-slide-active:hover .content {
+    position: absolute;
+    top: 180px;
+    background-color: #ea00f4;
+    transition: all 0.5s ease;
+}
+
+
+.swiper-slide.swiper-slide-visible.swiper-slide-active:hover .projectDesc{
+    opacity: 1;
+    background-color: transparent;
+    transition: opacity 0.5s;
+    bottom: 0px;
+}
+
+.swiper-slide.swiper-slide-visible.swiper-slide-active:hover .github-link {
+    opacity: 1;
+    z-index: 99;
+    transition: opacity 0.5s;
+    background-color: white;
+    border-radius: 50px !important;
+}
+
+.swiper-slide-shadow-right {
+    border-radius: 15px;
+}
+
+.swiper-slide-shadow-left {
+    border-radius: 15px;
+}
+
+.content {
+    position: absolute;
+    top: 331px;
+    left: 0px;
+    background-color: transparent;
+    width: 100%;
+    border-radius: 15px;
+    transition: all 0.5s ease;
+    border-radius: 15px;
+    height: 220px;
+}
+
+.projectName {
+    display: flex;
+    justify-content: center;
+    background-color: #ea00f4;
+    border-radius: 15px;
+    height: 70px;
+}
+
+.projectDesc {
+    display: block;
+    opacity: 0;
+    transition: all 0.5s ease;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+* {
+    font-family: 'Space Mono', monospace;
+    color: white;
+}
+
+.swiper-pagination.swiper-pagination-bullets.swiper-pagination-horizontal {
+    display: flex;
+    justify-content: center;
+}
+
+.github-link {
+    position: absolute;
+    width: 50px !important;
+    height: 50px;
+    top: 5px;
+    left: 5px;
+    opacity: 0;
+    transition: opacity 0.5s;
+    z-index: 99;
+    background-color: white;
+    border-radius: 50px !important;
+}
+
+@media screen and (max-width: 960px) {
+    .swiper-slide {
+        width: 300px;
+        height: 150px;
+    }
+
+    .swiper-slide.swiper-slide-visible.swiper-slide-active {
+        overflow: overlay;
+        height: 100vh;
+    }
+
+    img {
+        width: 300px;
+        height: 150px;
+    }
+
+    .swiper-slide.swiper-slide-visible.swiper-slide-active:hover .content {
+        position: absolute;
+        top: 175px;
+        background-color: #ea00f4;
+        transition: none;
+    }
+
+    .swiper-slide.swiper-slide-visible.swiper-slide-active:hover .image{
+        opacity: 1;
+        border-radius: 15px;
+    }
+
+    .content {
+        position: relative;
+        top: 25px;
+        left: 0px;
+        background-color: #ea00f4;
+        width: 100%;
+        border-radius: 15px;
+        height: 500px;
+        
+        transition: none;
+    }
+    
+    .projectName {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        background-color: #ea00f4;
+        border-radius: 15px;
+        height: 150px;
+    }
+    
+    .projectDesc {
+        display: block;
+        opacity: 1;
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+
+    .swiper-pagination.swiper-pagination-bullets.swiper-pagination-horizontal {
+        position: absolute;
+        top: 645px;
+    }
+
+    .github-link {
+        opacity: 1 !important;
+    }
+}

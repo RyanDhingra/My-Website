@@ -1,0 +1,9 @@
+body {
+    margin: 0px;
+    background-color: black;
+}
+
+.fa-solid.fa-motorcycle.fa-xl {
+    position: relative;
+    color: white;
+}
