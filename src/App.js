@@ -15,7 +15,7 @@ const App = () => {
           <Helmet>
             <meta charSet="utf-8" />
             <title>Ryan Dhingra's PW</title>
-            <link rel="canonical" href="http://mysite.com/example" />
+            <link rel="canonical" href="https://ryand-dev.vercel.app/" />
             <meta name="description" content="Ryan Dhingra's personal website." />
           </Helmet>
           <Navbar/>
