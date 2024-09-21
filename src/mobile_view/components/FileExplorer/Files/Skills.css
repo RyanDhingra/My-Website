@@ -1,0 +1,72 @@
+.skills-file-cont {
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    height: 100%;
+    opacity: 0;
+    animation: fadeIn 0.3s ease-in-out forwards;
+    animation-delay: 0.3s;
+    backdrop-filter: blur(5px);
+    background-color: rgba(0, 0, 0, 0.7);
+    overflow-x: hidden;
+    overflow-y: auto;
+    border-radius: 10px;
+    box-shadow:
+        inset 0 0 5px rgba(57, 255, 20, 0.6),
+        /* Inner glow */
+        0 0 3px #39FF14,
+        /* Slight outer glow */
+        0 0 8px rgba(57, 255, 20, 0.9),
+        /* Medium outer glow */
+        0 0 15px rgba(57, 255, 20, 0.8),
+        /* Medium distant glow */
+        0 0 30px rgba(57, 255, 20, 0.7);
+
+    &::-webkit-scrollbar {
+        width: 8px;
+        /* Thin width */
+    }
+
+    &::-webkit-scrollbar-track {
+        background: transparent;
+        /* Track background (dark for contrast) */
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    &::-webkit-scrollbar-thumb {
+        background-color: #39FF14;
+        /* Neon green scroll bar */
+        border-radius: 10px;
+        /* Rounded corners */
+        border: 2px solid black;
+        /* Optional: dark border for contrast */
+    }
+}
+
+.skills-file-title {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    width: 100%;
+    font-size: 2vw;
+    text-align: center;
+    text-decoration: underline;
+}
+
+.skills-file-txt {
+    width: 90%;
+    margin-left: 5%;
+    font-size: 1.4vw;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}

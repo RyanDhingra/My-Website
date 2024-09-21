@@ -1,0 +1,39 @@
+.mobile-home-page {
+    width: 100%;
+    height: 100dvh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Init text styles */
+.mobile-init-cont {
+    width: 90%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transition: opacity 0.5s ease;
+}
+
+.mobile-init-text-cont {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mobile-init-char {
+    font-family: 'GoodTimes';
+    font-size: 11vw;
+    width: calc(11vw);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-shadow: 
+        0 0 3px #39FF14, /* Slight inner glow */
+        0 0 8px rgba(57, 255, 20, 0.9), /* Medium outer glow */
+        0 0 150px rgba(57, 255, 20, 0.8), /* Medium distant glow */
+        0 0 30px rgba(57, 255, 20, 0.7); /* Large glow with slight transparency */
+}

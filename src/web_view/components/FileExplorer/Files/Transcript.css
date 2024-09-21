@@ -1,0 +1,110 @@
+.transcript-file-cont {
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    height: 100%;
+    opacity: 0;
+    animation: fadeIn 0.3s ease-in-out forwards;
+    animation-delay: 0.3s;
+    backdrop-filter: blur(5px);
+    background-color: rgba(0, 0, 0, 0.7);
+    overflow-x: hidden;
+    overflow-y: auto;
+    border-radius: 10px;
+    box-shadow:
+        inset 0 0 5px rgba(57, 255, 20, 0.6),
+        /* Inner glow */
+        0 0 3px #39FF14,
+        /* Slight outer glow */
+        0 0 8px rgba(57, 255, 20, 0.9),
+        /* Medium outer glow */
+        0 0 15px rgba(57, 255, 20, 0.8),
+        /* Medium distant glow */
+        0 0 30px rgba(57, 255, 20, 0.7);
+
+    &::-webkit-scrollbar {
+        width: 8px;
+        /* Thin width */
+    }
+
+    &::-webkit-scrollbar-track {
+        background: transparent;
+        /* Track background (dark for contrast) */
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    &::-webkit-scrollbar-thumb {
+        background-color: #39FF14;
+        /* Neon green scroll bar */
+        border-radius: 10px;
+        /* Rounded corners */
+        border: 2px solid black;
+        /* Optional: dark border for contrast */
+    }
+}
+
+.transcript-file-header {
+    height: 30%;
+    width: 100%;
+}
+
+.transcript-title {
+    width: 100%;
+    text-align: center;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 2px solid #39FF14;
+    font-size: 1.9vw;
+}
+
+.transcript-subtitle {
+    width: 100%;
+    height: 50%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.6vw;
+}
+
+.transcript-file-body {
+    width: 100%;
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+}
+
+.transcript-body-title {
+    width: 100%;
+    text-align: center;
+    font-size: 1.3vw;
+    margin-top: 40px;
+    text-decoration: underline;
+}
+
+.transcript-body-subtitle {
+    width: 95%;
+    margin-left: 5%;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-size: 1.1vw;
+}
+
+.transcript-body-txt {
+    width: 95%;
+    margin-left: 5%;
+    font-size: 1.1vw;
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
