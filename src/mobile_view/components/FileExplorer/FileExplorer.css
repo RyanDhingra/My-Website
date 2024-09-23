@@ -12,7 +12,7 @@
     z-index: 5;
     height: 80%;
     width: 90%;
-    transition: width 0.3s ease-in-out;
+    transition: width 0.3s ease-in-out, opacity 0.3s ease-in-out;
     overflow-x: hidden;
     overflow-y: auto;
     background-color: rgba(0, 0, 0, 0.7);
@@ -46,34 +46,39 @@
 }
 
 .mobile-file-explorer-body {
+    position: absolute;
     display: grid;
     opacity: 0;
     grid-template-columns: repeat(3, 1fr);
-    transition: opacity 0.3s ease-in-out, margin 0.3s ease-in-out;
+    transition: opacity 0.3s ease-in-out;
     animation: fadeIn 3s ease-in-out;
     animation-delay: 1s;
+    width: 100%;
 }
 
 .mobile-file-explorer-body.mobile-changing {
+    position: absolute;
     display: grid;
     opacity: 1;
     grid-template-columns: repeat(3, 1fr);
     transition: opacity 0.3s ease-in-out;
+    width: 100%;
 }
 
 .mobile-file-view-cont {
-    position: relative;
+    position: absolute;
     z-index: 5;
-    width: 45%;
+    width: 90%;
     height: 80%;
     transition: all 0.3s ease-in-out;
     opacity: 0;
 }
 
+
 .mobile-file-view-cont.mobile-changing {
-    position: relative;
+    position: absolute;
     z-index: 5;
-    width: 45%;
+    width: 90%;
     height: 80%;
     transition: all 0.3s ease-in-out;
     opacity: 1;

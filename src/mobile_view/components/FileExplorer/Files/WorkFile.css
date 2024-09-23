@@ -1,0 +1,93 @@
+.mobile-work-file-cont {
+    width: 100%;
+    height: 85%;
+    backdrop-filter: blur(5px);
+    background-color: rgba(0, 0, 0, 0.7);
+    border-radius: 10px;
+    box-shadow:
+        inset 0 0 5px rgba(57, 255, 20, 0.6),
+        /* Inner glow */
+        0 0 3px #39FF14,
+        /* Slight outer glow */
+        0 0 8px rgba(57, 255, 20, 0.9),
+        /* Medium outer glow */
+        0 0 15px rgba(57, 255, 20, 0.8),
+        /* Medium distant glow */
+        0 0 30px rgba(57, 255, 20, 0.7);
+    overflow-x: hidden;
+    overflow-y: auto;
+
+    &::-webkit-scrollbar {
+        width: 8px;
+        /* Thin width */
+    }
+
+    &::-webkit-scrollbar-track {
+        background: transparent;
+        /* Track background (dark for contrast) */
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    &::-webkit-scrollbar-thumb {
+        background-color: #39FF14;
+        /* Neon green scroll bar */
+        border-radius: 10px;
+        /* Rounded corners */
+        border: 2px solid black;
+        /* Optional: dark border for contrast */
+    }
+}
+
+.mobile-work-file-header {
+    width: 100%;
+    height: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 2px solid #39FF14;
+    box-sizing: border-box;
+}
+
+.mobile-work-file-title {
+    width: 95%;
+    font-size: 2.2em;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.mobile-work-file-subtitle {
+    width: 95%;
+    font-size: 1.2em;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.mobile-work-file-body-title {
+    font-size: 1.2em;
+    text-decoration: underline;
+    margin-top: 15px;
+    width: 95%;
+}
+
+.mobile-work-file-body {
+    height: 75%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.mobile-work-file-body-summary {
+    width: 90%;
+    padding-bottom: 25px;
+    font-size: 1.2em;
+}
+
+.mobile-work-file-body-skills {
+    width: 90%;
+    padding-bottom: 25px;
+    margin-top: 15px;
+    font-size: 1.2em;
+}

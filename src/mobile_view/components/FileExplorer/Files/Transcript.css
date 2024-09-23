@@ -1,8 +1,6 @@
-.transcript-file-cont {
-    width: 80%;
-    margin-left: 10%;
-    margin-right: 10%;
-    height: 100%;
+.mobile-transcript-file-cont {
+    width: 100%;
+    height: 85%;
     opacity: 0;
     animation: fadeIn 0.3s ease-in-out forwards;
     animation-delay: 0.3s;
@@ -44,12 +42,12 @@
     }
 }
 
-.transcript-file-header {
+.mobile-transcript-file-header {
     height: 30%;
     width: 100%;
 }
 
-.transcript-title {
+.mobile-transcript-title {
     width: 100%;
     text-align: center;
     height: 50%;
@@ -57,46 +55,46 @@
     justify-content: center;
     align-items: center;
     border-bottom: 2px solid #39FF14;
-    font-size: 1.9vw;
+    font-size: 1.5em;
 }
 
-.transcript-subtitle {
+.mobile-transcript-subtitle {
     width: 100%;
     height: 50%;
     text-align: center;
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 1.6vw;
+    font-size: 1.3em;
 }
 
-.transcript-file-body {
+.mobile-transcript-file-body {
     width: 100%;
     height: 70%;
     display: flex;
     flex-direction: column;
 }
 
-.transcript-body-title {
+.mobile-transcript-body-title {
     width: 100%;
     text-align: center;
-    font-size: 1.3vw;
+    font-size: 1.2em;
     margin-top: 40px;
     text-decoration: underline;
 }
 
-.transcript-body-subtitle {
+.mobile-transcript-body-subtitle {
     width: 95%;
     margin-left: 5%;
     margin-top: 20px;
     margin-bottom: 10px;
-    font-size: 1.1vw;
+    font-size: 1.1em;
 }
 
-.transcript-body-txt {
+.mobile-transcript-body-txt {
     width: 95%;
     margin-left: 5%;
-    font-size: 1.1vw;
+    font-size: 1.1em;
 }
 
 @keyframes fadeIn {

@@ -12,7 +12,7 @@ function Terminal() {
             'fileNames': [],
             'projects': {
                 'fileNames': [],
-                'folderNames': ['ar_rackets', 'code_clash', 'tenno_trader', 'e_mersed', 'inventory_software', 'club_companion', 'underground_oasis', 'tank_wars'],
+                'folderNames': ['ar_rackets', 'code_clash', 'tenno_trader', 'e_mersed', 'inventory_software', 'club_companion', 'underground_oasis', 'tank_wars', 'hymus_sports', 'tmu_treasures', 'tmu_battlebots', 'my_outlet', 'gamer_fit'],
                 'parent': '~',
                 'type': 'dir',
                 "ar_rackets": {
@@ -28,7 +28,12 @@ function Terminal() {
                     "description.txt": {
                         'parent': 'ar_rackets',
                         'type': 'text',
-                        'content': "AR Rackets is a React-based website, powered by a Flask Python backend and CockroachDB. Specializing in badminton racket restringing and servicing, it also offers a diverse selection of new and used rackets available for customers to purchase."
+                        'content': [
+                            "AR Rackets is a React-based full stack web application, powered by a Flask Python backend and CockroachDB. The site specializes in badminton racket restringing and servicing, offering customers a seamless way to explore services and make bookings. In addition to servicing, AR Rackets provides a diverse selection of both new and used rackets available for purchase. The website's modern, responsive design ensures an optimal user experience across all devices, while the integration of cutting-edge technologies ensures reliability and performance.",
+                            <br />,
+                            <br />,
+                            "Tech Stack: React.js, Flask, Python, CockroachDB, HTML, CSS, Javascript"
+                        ]
                     }
                 },
                 "code_clash": {
@@ -44,7 +49,12 @@ function Terminal() {
                     "description.txt": {
                         'parent': 'code_clash',
                         'type': 'text',
-                        'content': "Embark on an exhilarating coding adventure with Code-Clash, an upcoming online multiplayer game that promises to revolutionize the coding challenge experience. Engage in fierce 1v1 or collaborative 2v2 coding competitions, featuring diverse challenges like time trials, clean code contests, code efficiency battles, and timed debugging showdowns. Immerse yourself in a dynamic and competitive coding environment, where every keystroke counts. But Code-Clash isn't just about competition—it's a platform designed to boost your coding skills. Dive into learning modules crafted to enhance your programming prowess, making it an ideal space for both beginners and seasoned coders alike. Get ready to code, compete, and elevate your skills in the electrifying world of Code-Clash."
+                        'content': [
+                            "Code-Clash is an innovative online multiplayer game that brings the thrill of coding competitions to life. Players can engage in fast-paced 1v1 duels or team up for strategic 2v2 battles, tackling coding challenges like clean code creation, optimizing efficiency, and debugging under time pressure. Whether you're racing against the clock or competing for the cleanest solution, Code-Clash offers an adrenaline-fueled experience designed to test and improve your programming skills. With integrated learning modules, players can also sharpen their coding knowledge in a fun and engaging way, making it a valuable tool for developers of all levels.",
+                            <br />,
+                            <br />,
+                            "Tech Stack: React.js, Flask, Python, CockroachDB, WebSockets, Socket.io"
+                        ]
                     }
                 },
                 "tenno_trader": {
@@ -60,7 +70,12 @@ function Terminal() {
                     "description.txt": {
                         'parent': 'tenno_trader',
                         'type': 'text',
-                        'content': "TennoTrader is a mobile IOS app for Warframe players, offering seamless tracking of buy and sell orders from warframe.market. With a user-friendly watchlist, users can monitor up to 5 items, receiving mobile notifications when prices hit their specified thresholds. TennoTrader enhances the trading experience for Warframe enthusiasts."
+                        'content': [
+                            "TennoTrader is a mobile iOS app designed for Warframe players, providing a seamless way to track buy and sell orders directly from warframe.market. With its user-friendly interface, the app allows users to monitor up to 5 items through a customizable watchlist. TennoTrader also sends mobile notifications when item prices reach user-specified thresholds, ensuring players never miss out on a trade. This app elevates the trading experience for Warframe enthusiasts, offering convenience and real-time updates.",
+                            <br />,
+                            <br />,
+                            "Tech Stack: React Native, Expo GO, Javascript, Axios, warframe.market API"
+                        ]
                     }
                 },
                 "e_mersed": {
@@ -76,7 +91,12 @@ function Terminal() {
                     "description.txt": {
                         'parent': 'e_mersed',
                         'type': 'text',
-                        'content': "E-Mersed is an innovative gaming equipment ecommerce site, featuring a unique Virtual Setup Designer (VSD). Developed with React Three Fiber, the VSD is a cutting-edge 3D modeling software on the web that empowers users to customize their gaming setups in a dynamic and immersive 3D environment."
+                        'content': [
+                            "E-Mersed is an innovative ecommerce platform dedicated to gaming equipment, featuring a one-of-a-kind Virtual Setup Designer (VSD). Developed with React Three Fiber, the VSD allows users to create and customize their gaming setups in a fully immersive 3D environment, providing a dynamic and interactive experience for customers. This cutting-edge feature makes E-Mersed stand out in the ecommerce space by offering gamers a way to visualize and design their ideal setups before making a purchase. The project highlights showcases expertise in 3D web technologies and the ability to blend creativity with functionality in ecommerce.",
+                            <br />,
+                            <br />,
+                            "Tech Stack: React.js, React Three Fiber, HTML, CSS, Javascript, Commerce.js, Stripe"
+                        ]
                     }
                 },
                 "inventory_software": {
@@ -92,7 +112,12 @@ function Terminal() {
                     "description.txt": {
                         'parent': 'inventory_software',
                         'type': 'text',
-                        'content': "Inventory software created with Javay Swing. Allows for adding and deleting products, inventory search, as well as price, size and quantity updates. Also lets you have images for items and displays them in a nice viewable format along with all product details."
+                        'content': [
+                            "This inventory management software, developed using Java Swing, allows users to efficiently manage their product inventory by adding and deleting items, searching through inventory, and updating key details such as price, size, and quantity. The software also supports adding images for each product, which are displayed alongside detailed information in a clear and user-friendly format. This tool simplifies inventory tracking while providing a visually appealing way to view all product details.",
+                            <br />,
+                            <br />,
+                            "Tech Stack: Java, Java Swing"
+                        ]
                     }
                 },
                 "club_companion": {
@@ -103,7 +128,12 @@ function Terminal() {
                     "description.txt": {
                         'parent': 'club_companion',
                         'type': 'text',
-                        'content': "Add description here ********************************"
+                        'content': [
+                            "Club Companion is a sleek desktop application powered by Electron JS, designed specifically for sports club owners to simplify the management of court reservations and scheduling. The software provides a streamlined interface that makes it easy for owners to manage bookings, while also offering customers a live display of current bookings, enhancing transparency and convenience.",
+                            <br />,
+                            <br />,
+                            "Tech Stack: Electron JS, React.js, HTML, CSS, Javascript, Python, CockroachDB, Flask"
+                        ]
                     }
                 },
                 "underground_oasis": {
@@ -119,7 +149,12 @@ function Terminal() {
                     "description.txt": {
                         'parent': 'underground_oasis',
                         'type': 'text',
-                        'content': "Add description here ********************************"
+                        'content': [
+                            "The Underground Oasis Detailing website was developed to provide a seamless online experience for a mobile car detailing company. The site features a clean and modern landing page with detailed service information, pricing packages, and an 'About Us' section. Users can create custom profiles, book appointments, and receive calendar invites. The platform also includes an admin page for managing appointments, user profiles, and uploading images to a personalized gallery that showcases the results of detailing services. This website enhances both customer engagement and operational efficiency for the business.",
+                            <br />,
+                            <br />,
+                            "Tech Stack: React.js, Flask, Python, CockroachDB, HTML, CSS, Javascript"
+                        ]
                     }
                 },
                 "tank_wars": {
@@ -135,7 +170,102 @@ function Terminal() {
                     "description.txt": {
                         'parent': 'tank_wars',
                         'type': 'text',
-                        'content': "Add description here ********************************"
+                        'content': [
+                            "This multiplayer 2D game, built in Python using Pygame and Tkinter, offers players an exciting and competitive experience across four completely unique maps. Each map is filled with distinctive power-ups that players can strategically use to outplay their opponents and dominate the competition. The game combines engaging mechanics with dynamic environments, creating a fun and immersive gameplay experience.",
+                            <br />,
+                            <br />,
+                            "Tech Stack: Python, Pygame, Tkinter"
+                        ]
+                    }
+                },
+                "hymus_sports": {
+                    'parent': 'projects',
+                    'type': 'dir',
+                    'fileNames': ["viewSite.sh", "description.txt"],
+                    'folderNames': [],
+                    "viewSite.sh": {
+                        'parent': 'hymus_sports',
+                        'type': 'script',
+                        'url': "https://www.hymussports.ca/"
+                    },
+                    "description.txt": {
+                        'parent': 'hymus_sports',
+                        'type': 'text',
+                        'content': [
+                            "The Hymus Sports website was designed to provide a seamless online experience for customers interested in sports training and activities. The site offers detailed information on services, schedules, and facility features, while also enabling users to make online bookings with ease. Its clean and user-friendly design ensures that visitors can quickly navigate through the various offerings, making it an essential tool for both prospective and current customers of the facility.",
+                            <br />,
+                            <br />,
+                            "Tech Stack: Python, CockroachDB, Flask, HTML, CSS, Javascript, React.js"
+                        ]
+                    }
+                },
+                "tmu_treasures": {
+                    'parent': 'projects',
+                    'type': 'dir',
+                    'fileNames': ["description.txt"],
+                    'folderNames': [],
+                    "description.txt": {
+                        'parent': 'tmu_treasures',
+                        'type': 'text',
+                        'content': [
+                            "TMU Treasures is an exclusive online marketplace designed specifically for the TMU student community. The platform offers a seamless experience for buying, selling, and exchanging goods and services through categories such as 'Items Wanted', 'Items for Sale', and 'Academic Services'. Whether students are looking to sell textbooks, declutter their space, or offer academic support, TMU Treasures provides a user-friendly environment that fosters connection and collaboration. More than just a marketplace, the platform embodies the spirit of the TMU community, creating opportunities for students to engage and support one another. It also features a built in messaging system to facilitate communication between buyers and sellers.",
+                            <br />,
+                            <br />,
+                            "Tech Stack: React.js, Flask, Python, CockroachDB, HTML, CSS, Javascript"
+                        ]
+                    }
+                },
+                "tmu_battlebots": {
+                    'parent': 'projects',
+                    'type': 'dir',
+                    'fileNames': ["viewSite.sh", "description.txt"],
+                    'folderNames': [],
+                    "viewSite.sh": {
+                        'parent': 'tmu_battlebots',
+                        'type': 'script',
+                        'url': "https://tmu-battlebots.vercel.app/"
+                    },
+                    "description.txt": {
+                        'parent': 'tmu_battlebots',
+                        'type': 'text',
+                        'content': [
+                            "TMU Battlebots is an interactive website designed to showcase the university's battlebots team and their creations. The site features detailed 3D models of the robots, allowing users to explore them in an interactive and engaging way. This platform acts as both a digital portfolio for the team and an interactive experience for robotics enthusiasts.",
+                            <br />,
+                            <br />,
+                            "Skills: React, React Three Fiber, HTML, CSS, Javascript"
+                        ]
+                    }
+                },
+                "my_outlet": {
+                    'parent': 'projects',
+                    'type': 'dir',
+                    'fileNames': ["description.txt"],
+                    'folderNames': [],
+                    "description.txt": {
+                        'parent': 'my_outlet',
+                        'type': 'text',
+                        'content': [
+                            "My Outlet is a unique social battery monitoring application designed to foster in-person interactions. The app displays surrounding users who are open to socializing and promotes real-life connectivity. Utilizing indoor geolocation technology, My Outlet provides users with the distance between them and others in their vicinity, making it easier to initiate spontaneous meetups. By encouraging face-to-face connections, Outlet bridges the gap between digital and in-person interactions.",
+                            <br />,
+                            <br />,
+                            "Tech Stack: React, Django, Python, HTML, CSS, Javascript"
+                        ]
+                    }
+                },
+                "gamer_fit": {
+                    'parent': 'projects',
+                    'type': 'dir',
+                    'fileNames': ["description.txt"],
+                    'folderNames': [],
+                    "description.txt": {
+                        'parent': 'gamer_fit',
+                        'type': 'text',
+                        'content': [
+                            "This Discord bot is designed specifically for gamers and individuals who spend extended periods in front of a screen. The bot helps users set activity goals and schedule reminders to take breaks, promoting a healthier balance during long gaming or work sessions. For each reminder, the bot suggests random exercises to keep users active. Additionally, it integrates a motivational quote API, allowing users to get workout motivation on demand. This tool encourages wellness and productivity through a user-friendly and interactive experience.",
+                            <br />,
+                            <br />,
+                            "Tech Stack: Python, Discord API, Discord.py"
+                        ]
                     }
                 }
             },
@@ -203,7 +333,6 @@ function Terminal() {
     }
 
     const handleCd = async (dir) => {
-        console.log("dir:", dir);
         if (dir === '~') {
             if (currDir === '~') {
                 setOutput((prev) => [...prev,
@@ -216,6 +345,31 @@ function Terminal() {
                 setCurrDir((prev) => '~');
                 await sleep(0);
                 setCurrNode((prev) => dirStructure['~']);
+            }
+        } else if (dir === '../') {
+
+            if (currNode.parent === null) {
+                setOutput((prev) => [...prev,
+                <div className='terminal-input-cont'>
+                    <p className='terminal-text'>root@dev-terminal:{currDir}$</p>
+                    <input ref={nextInput} onKeyDown={handleInput} className='terminal-input' type='text' />
+                </div>
+                ])
+            } else {
+                let paths = currDir.split('/');
+                console.log(paths);
+                await sleep(0);
+
+                let newNode = dirStructure['~'];
+
+                for (let path of paths.slice(1, paths.length - 1)) {
+                    newNode = newNode[path];
+                }
+
+                setCurrDir((prev) => paths.slice(0, paths.length - 1).join('/'));
+                await sleep(0);
+                setCurrNode((prev) => newNode);
+                await sleep(0);
             }
         } else if (currNode.folderNames.includes(dir)) {
             setCurrDir((prev) => prev + '/' + dir);
@@ -241,9 +395,7 @@ function Terminal() {
             nextInput.current.disabled = true;
             nextInput.current = null;
 
-            console.log("Terminal Input:", e.target.value);
             const cleanVal = e.target.value.trim();
-            console.log("Terminal Input:", cleanVal);
 
             if (cleanVal === '') {
                 setOutput((prev) => [...prev,
@@ -466,7 +618,6 @@ function Terminal() {
     }, [output]);
 
     useEffect(() => {
-        console.log("currNode:", currNode);
         if (currNode !== dirStructure['~']) {
             setOutput((prev) => [...prev,
             <div className='mobile-terminal-input-cont'>
@@ -484,7 +635,7 @@ function Terminal() {
         setOutput((prev) => [...prev,
         <>
             <div className='mobile-terminal-error-cont'>
-                <p className='mobile-terminal-text' style={{fontSize: '2.9vw'}}>
+                <p className='mobile-terminal-text' style={{ fontSize: '2.9vw' }}>
                     &nbsp;__&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;__&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;.__
                     <br />
                     /&nbsp;&nbsp;\&nbsp;&nbsp;&nbsp;&nbsp;/&nbsp;&nbsp;\&nbsp;____&nbsp;|&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;____&nbsp;&nbsp;____&nbsp;&nbsp;&nbsp;_____&nbsp;&nbsp;&nbsp;____
@@ -501,6 +652,10 @@ function Terminal() {
                 </p>
                 <p className='mobile-terminal-text'>
                     You have entered the developer terminal (•_•)
+                    <br />
+                    This is best experienced on a desktop browser,
+                    <br />
+                    I recommend you switch landscape mode for phones/tablets.
                     <br />
                     <br />
                     Here are some commands you can use:
@@ -550,7 +705,7 @@ function Terminal() {
                         <p className='mobile-terminal-header-title-text'>root@dev-terminal: {currDir}</p>
                     </div>
                     <div className='mobile-terminal-header-btns'>
-                        
+
                     </div>
                 </div>
                 <div className='mobile-terminal-body'>

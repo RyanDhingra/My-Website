@@ -1,8 +1,6 @@
-.project-file-cont {
-    width: 80%;
-    margin-left: 10%;
-    margin-right: 10%;
-    height: 100%;
+.mobile-project-file-cont {
+    width: 100%;
+    height: 85%;
     backdrop-filter: blur(5px);
     background-color: rgba(0, 0, 0, 0.7);
     border-radius: 10px;
@@ -18,23 +16,25 @@
         0 0 30px rgba(57, 255, 20, 0.7);
 }
 
-.project-file-header {
+.mobile-project-file-header {
     width: 100%;
     height: 15%;
     display: flex;
     justify-content: center;
     align-items: center;
+    border-bottom: 2px solid #39FF14;
+    box-sizing: border-box;
 }
 
-.project-file-title {
+.mobile-project-file-title {
     width: 95%;
-    font-size: 2vw;
+    font-size: 1.8em;
     overflow: hidden;
     text-overflow: ellipsis;
     text-align: center;
 }
 
-.project-file-body {
+.mobile-project-file-body {
     height: 85%;
     width: 100%;
     display: flex;
@@ -65,20 +65,21 @@
     }
 }
 
-.project-file-desc-cont {
+.mobile-project-file-desc-cont {
     width: 90%;
     padding-bottom: 25px;
+    margin-top: 15px;
 }
 
-.project-file-desc {
-    font-size: 1.2vw;
+.mobile-project-file-desc {
+    font-size: 1.2em;
 }
 
-.project-file-imgs {
+.mobile-project-file-imgs {
     width: 90%;
 }
 
-.project-file-img-cont {
+.mobile-project-file-img-cont {
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -86,15 +87,15 @@
     align-items: center;
 }
 
-.project-file-img {
+.mobile-project-file-img {
     object-fit: contain;
     max-width: 100%;
     max-height: 50vh;
 }
 
-.project-file-img-desc {
+.mobile-project-file-img-desc {
     width: calc(100% - 30px);
-    font-size: 1.2vw;
+    font-size: 1.2em;
     margin-top: 25px;
     margin-bottom: 25px;
     padding: 15px;
@@ -106,7 +107,7 @@
     text-align: center;
 }
 
-.project-file-links {
+.mobile-project-file-links {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -117,7 +118,7 @@
     margin-top: 25px;
 }
 
-.project-file-link-cont {
+.mobile-project-file-link-cont {
     display: flex;
     justify-content: flex-start;
     align-items: center;
@@ -125,9 +126,9 @@
     padding-bottom: 25px;
 }
 
-.project-file-link-img {
-    width: 2vw;
-    height: 2vw;
+.mobile-project-file-link-img {
+    width: 6vw;
+    height: 6vw;
     margin-right: 20px;
     cursor: pointer;
 
@@ -143,8 +144,8 @@
     }
 }
 
-.project-file-link {
-    font-size: 1.2vw;
+.mobile-project-file-link {
+    font-size: 1.2em;
     transition: all 0.1s ease-in-out;
 
     &:hover {

@@ -1,4 +1,4 @@
-.resume-file-cont {
+.mobile-resume-file-cont {
     position: relative;
     width: 100%;
     height: 100%;
@@ -11,28 +11,28 @@
     animation-delay: 0.3s;
 }
 
-.resume-png-cont {
+.mobile-resume-png-cont {
     width: 100%;
     height: 80%;
 }
 
-.resume-png {
+.mobile-resume-png {
     width: 100%;
     height: 100%;
     object-fit: contain;
 }
 
-.resume-file-actns {
-    width: 80%;
+.mobile-resume-file-actns {
+    width: 100%;
     height: 20%;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
 }
 
-.resume-actn {
-    width: 4vw;
-    height: 4vw;
+.mobile-resume-actn {
+    width: 10vw;
+    height: 10vw;
     padding: 10px;
     display: flex;
     justify-content: center;
@@ -56,7 +56,7 @@
     }
 }
 
-.resume-icon {
+.mobile-resume-icon {
     height: 70%;
     width: auto;
 }

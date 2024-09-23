@@ -1,8 +1,6 @@
-.skills-file-cont {
-    width: 80%;
-    margin-left: 10%;
-    margin-right: 10%;
-    height: 100%;
+.mobile-skills-file-cont {
+    width: 100%;
+    height: 85%;
     opacity: 0;
     animation: fadeIn 0.3s ease-in-out forwards;
     animation-delay: 0.3s;
@@ -44,19 +42,19 @@
     }
 }
 
-.skills-file-title {
+.mobile-skills-file-title {
     margin-top: 50px;
     margin-bottom: 50px;
     width: 100%;
-    font-size: 2vw;
+    font-size: 1.8em;
     text-align: center;
     text-decoration: underline;
 }
 
-.skills-file-txt {
+.mobile-skills-file-txt {
     width: 90%;
     margin-left: 5%;
-    font-size: 1.4vw;
+    font-size: 1.4em;
     margin-top: 15px;
     margin-bottom: 15px;
 }
