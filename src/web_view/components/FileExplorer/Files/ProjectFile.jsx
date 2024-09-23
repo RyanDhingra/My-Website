@@ -36,7 +36,7 @@ function ProjectFile({ name, content, stack, repoLink, link, imgs }) {
                     {
                         repoLink ?
                             <div className='project-file-link-cont'>
-                                <img onClick={() => window.open(repoLink)} className='project-file-link-img' src={code} alt='Github' />
+                                <img onClick={() => window.open(repoLink)} className='project-file-link-img' src={github} alt='Github' />
                                 <a href={repoLink} target='_blank' rel='noreferrer' className='project-file-link'>Repository Link</a>
                             </div>
                             :
