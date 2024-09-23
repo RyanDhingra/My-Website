@@ -450,6 +450,8 @@ function FileExplorer() {
                 name="Code Clash Web Game"
                 content="Code-Clash is an innovative online multiplayer game that brings the thrill of coding competitions to life. Players can engage in fast-paced 1v1 duels or team up for strategic 2v2 battles, tackling coding challenges like clean code creation, optimizing efficiency, and debugging under time pressure. Whether you're racing against the clock or competing for the cleanest solution, Code-Clash offers an adrenaline-fueled experience designed to test and improve your programming skills. With integrated learning modules, players can also sharpen their coding knowledge in a fun and engaging way, making it a valuable tool for developers of all levels."
                 stack="React.js, Flask, Python, CockroachDB, WebSockets, Socket.io"
+                repoLink="https://github.com/RyanDhingra/Code-Clash"
+                // link="https://code-clash-online.vercel.app/"
                 imgs={[
                     { src: cc1, desc: "Login Page" },
                     { src: cc2, desc: "Main Menu" },
@@ -466,6 +468,8 @@ function FileExplorer() {
                 name="TMU Treasures Web App"
                 content="TMU Treasures is an exclusive online marketplace designed specifically for the TMU student community. The platform offers a seamless experience for buying, selling, and exchanging goods and services through categories such as 'Items Wanted', 'Items for Sale', and 'Academic Services'. Whether students are looking to sell textbooks, declutter their space, or offer academic support, TMU Treasures provides a user-friendly environment that fosters connection and collaboration. More than just a marketplace, the platform embodies the spirit of the TMU community, creating opportunities for students to engage and support one another. It also features a built in messaging system to facilitate communication between buyers and sellers."
                 stack="React.js, Flask, Python, CockroachDB"
+                link="https://github.com/RyanDhingra/TMU-Treasures-Commerce"
+                repoLink="https://github.com/RyanDhingra/TMU-Treasures-API"
                 imgs={[
                     { src: tt1, desc: "Landing Page" },
                     { src: tt2, desc: "Shop Page" },
@@ -498,7 +502,7 @@ function FileExplorer() {
                 name="E-Mersed E-Commerce Web App"
                 content="E-Mersed is an innovative ecommerce platform dedicated to gaming equipment, featuring a one-of-a-kind Virtual Setup Designer (VSD). Developed with React Three Fiber, the VSD allows users to create and customize their gaming setups in a fully immersive 3D environment, providing a dynamic and interactive experience for customers. This cutting-edge feature makes E-Mersed stand out in the ecommerce space by offering gamers a way to visualize and design their ideal setups before making a purchase. The project highlights showcases expertise in 3D web technologies and the ability to blend creativity with functionality in ecommerce."
                 stack="React.js, Blender, Stripe API, React Three Fiber, Commerce.js"
-                link="https://ar-rackets.vercel.app/"
+                repoLink="https://github.com/RyanDhingra/E-Mersed"
                 imgs={[
                     { src: em1, desc: "Landing Page" },
                     { src: em2, desc: "Browse Page" },
@@ -514,7 +518,7 @@ function FileExplorer() {
                 name="Tenno Trader Mobile App"
                 content="TennoTrader is a mobile iOS app designed for Warframe players, providing a seamless way to track buy and sell orders directly from warframe.market. With its user-friendly interface, the app allows users to monitor up to 5 items through a customizable watchlist. TennoTrader also sends mobile notifications when item prices reach user-specified thresholds, ensuring players never miss out on a trade. This app elevates the trading experience for Warframe enthusiasts, offering convenience and real-time updates." wwwwwwa
                 stack="React Native, Expo GO, warframe.market API"
-                link="https://ar-rackets.vercel.app/"
+                repoLink="https://github.com/RyanDhingra/TennoTrader-App"
                 imgs={[]}
                 closeFile={closeFile}
             />,
@@ -526,7 +530,7 @@ function FileExplorer() {
                 name="My Outlet Social App"
                 content="My Outlet is a unique social battery monitoring application designed to foster in-person interactions. The app displays surrounding users who are open to socializing and promotes real-life connectivity. Utilizing indoor geolocation technology, My Outlet provides users with the distance between them and others in their vicinity, making it easier to initiate spontaneous meetups. By encouraging face-to-face connections, Outlet bridges the gap between digital and in-person interactions."
                 stack="React.js, Flask, Python, CockroachDB"
-                link="https://ar-rackets.vercel.app/"
+                repoLink="https://github.com/RyanDhingra/MyOutlet-HTV7"
                 imgs={[]}
                 closeFile={closeFile}
             />,
@@ -538,7 +542,7 @@ function FileExplorer() {
                 name="GamerFit Discord Bot"
                 content="This Discord bot is designed specifically for gamers and individuals who spend extended periods in front of a screen. The bot helps users set activity goals and schedule reminders to take breaks, promoting a healthier balance during long gaming or work sessions. For each reminder, the bot suggests random exercises to keep users active. Additionally, it integrates a motivational quote API, allowing users to get workout motivation on demand. This tool encourages wellness and productivity through a user-friendly and interactive experience."
                 stack="Python, Discord API, Motivational Quote API"
-                link="https://ar-rackets.vercel.app/"
+                repoLink="https://github.com/RyanDhingra/Discord-Bot"
                 imgs={[
                     { src: gf1, desc: "Discord UI" }
                 ]}
@@ -552,6 +556,7 @@ function FileExplorer() {
                 name="Tank Wars PyGame"
                 content="This multiplayer 2D game, built in Python using Pygame and Tkinter, offers players an exciting and competitive experience across four completely unique maps. Each map is filled with distinctive power-ups that players can strategically use to outplay their opponents and dominate the competition. The game combines engaging mechanics with dynamic environments, creating a fun and immersive gameplay experience."
                 stack="Python, PyGame, Tkinter"
+                repoLink="https://github.com/RyanDhingra/Tank-Wars"
                 imgs={[
                     { src: tw1, desc: "Start Menu" },
                     { src: tw2, desc: "Map Select" },
@@ -569,6 +574,7 @@ function FileExplorer() {
                 name="Inventory Management Software"
                 content="This inventory management software, developed using Java Swing, allows users to efficiently manage their product inventory by adding and deleting items, searching through inventory, and updating key details such as price, size, and quantity. The software also supports adding images for each product, which are displayed alongside detailed information in a clear and user-friendly format. This tool simplifies inventory tracking while providing a visually appealing way to view all product details."
                 stack="Java, Java Swing"
+                repoLink="https://github.com/RyanDhingra/Product-Inventory-Software"
                 imgs={[
                     { src: is1, desc: "Product Creation Page" }
                 ]}
