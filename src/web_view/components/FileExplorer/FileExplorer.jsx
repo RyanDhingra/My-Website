@@ -350,7 +350,7 @@ function FileExplorer() {
                     "- Delivered a full-stack solution that reduced manual document handling and increased system scalability",
                     <br />,
                     <br />,
-                    "Collaborated with backend teams to ensure smooth data flow and consistent user experiences across different features"
+                    "- Collaborated with backend teams to ensure smooth data flow and consistent user experiences across different features"
                 ]}
                 skills={"React.js, Python + FastAPI, Docker, Nest.js, LLMs, GenAI, Backend Integration, Frontend Development"}
             />,

@@ -170,7 +170,7 @@ function FileExplorer() {
         },
         "Personal Projects": {
             folders: [],
-            files: ["ar_rackets.txt", "club_companion_software_app.txt", "hymus_sports.txt", "underground_oasis.txt", "code_clash.txt", "tmu_treasures.txt", "tmu_battlebots.txt", "e_mersed_e_commerce.txt", "tenno_trader_app.txt", "my_outlet.txt", "gamer_fit_discord_bot.txt", "tank_wars.txt"],
+            files: ["ar_rackets.txt", "club_companion_software_app.txt", "hymus_sports.txt", "underground_oasis.txt", "code_clash.txt", "tmu_treasures.txt", "tmu_battlebots.txt", "e_mersed_e_commerce.txt", "tenno_trader_app.txt", "my_outlet.txt", "gamer_fit_discord_bot.txt", "tank_wars.txt", "inventory_software.txt"],
             parent: "root"
         },
         "Contact": {
@@ -361,7 +361,7 @@ function FileExplorer() {
                     "- Delivered a full-stack solution that reduced manual document handling and increased system scalability",
                     <br />,
                     <br />,
-                    "Collaborated with backend teams to ensure smooth data flow and consistent user experiences across different features"
+                    "- Collaborated with backend teams to ensure smooth data flow and consistent user experiences across different features"
                 ]}
                 skills={"React.js, Python + FastAPI, Docker, Nest.js, LLMs, GenAI, Backend Integration, Frontend Development"}
                 closeFile={closeFile}
@@ -565,6 +565,7 @@ function FileExplorer() {
                     { src: tw5, desc: "Marine Mode" },
                     { src: tw6, desc: "Cyber Mode" }
                 ]}
+                closeFile={closeFile}
             />,
             icon: fileIcon,
             onclick: changeFile
@@ -578,6 +579,7 @@ function FileExplorer() {
                 imgs={[
                     { src: is1, desc: "Product Creation Page" }
                 ]}
+                closeFile={closeFile}
             />,
             icon: fileIcon,
             onclick: changeFile
