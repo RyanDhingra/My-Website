@@ -17,9 +17,6 @@ function Accolades({ closeFile }) {
                     2021-2022 Ontario University Athletics Academic Award Winner
                     <br />
                     <br />
-                    2021-2022 Ontario University Athletics Academic Award Winner
-                    <br />
-                    <br />
                     2022-2023 Dean's List Recognition for Academic Achievement
                     <br />
                     <br />
