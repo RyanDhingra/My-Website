@@ -12,7 +12,7 @@ function Terminal() {
             'fileNames': [],
             'projects': {
                 'fileNames': [],
-                'folderNames': ['ar_rackets', 'code_clash', 'tenno_trader', 'e_merse    d', 'inventory_software', 'club_companion', 'underground_oasis', 'tank_wars', 'hymus_sports', 'tmu_treasures', 'tmu_battlebots', 'my_outlet', 'gamer_fit'],
+                'folderNames': ['ar_rackets', 'code_clash', 'tenno_trader', 'e_mersed', 'inventory_software', 'club_companion', 'underground_oasis', 'tank_wars', 'hymus_sports', 'tmu_treasures', 'tmu_battlebots', 'my_outlet', 'gamer_fit'],
                 'parent': '~',
                 'type': 'dir',
                 "ar_rackets": {
@@ -223,7 +223,7 @@ function Terminal() {
                     "viewSite.sh": {
                         'parent': 'tmu_battlebots',
                         'type': 'script',
-                        'url': "https://tmu-battlebots.vercel.app/"
+                        'url': "https://tmu-battle-bots.vercel.app/"
                     },
                     "description.txt": {
                         'parent': 'tmu_battlebots',
@@ -241,6 +241,11 @@ function Terminal() {
                     'type': 'dir',
                     'fileNames': ["description.txt"],
                     'folderNames': [],
+                    "viewRepo.sh": {
+                        'parent': 'my_outlet',
+                        'type': 'script',
+                        'url': "https://github.com/RyanDhingra/MyOutlet-HTV7"
+                    },
                     "description.txt": {
                         'parent': 'my_outlet',
                         'type': 'text',
@@ -257,6 +262,11 @@ function Terminal() {
                     'type': 'dir',
                     'fileNames': ["description.txt"],
                     'folderNames': [],
+                    "viewRepo.sh": {
+                        'parent': 'gamer_fit',
+                        'type': 'script',
+                        'url': "https://github.com/RyanDhingra/Discord-Bot"
+                    },
                     "description.txt": {
                         'parent': 'gamer_fit',
                         'type': 'text',

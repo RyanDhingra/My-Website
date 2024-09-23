@@ -65,6 +65,8 @@ import tb3 from '../../assets/images/projects/tb_3.png'
 
 import gf1 from '../../assets/images/projects/gf_1.png'
 
+import is1 from '../../assets/images/projects/is_1.png'
+
 function FileExplorer() {
     const [currFolder, setCurrFolder] = useState("root");
     const [currFile, setCurrFile] = useState(null);
