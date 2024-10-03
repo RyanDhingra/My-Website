@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import "./Item.css";
 
 function Item({ icon, name, setItem }) {
