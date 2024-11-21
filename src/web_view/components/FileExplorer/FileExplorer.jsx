@@ -137,7 +137,7 @@ function FileExplorer() {
         },
         "Photo Gallery": {
             folders: [],
-            files: ["Me"],
+            files: [],
             parent: 'Biography'
         },
         "Certifications & Licenses": {
